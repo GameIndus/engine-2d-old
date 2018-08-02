@@ -1,3 +1,12 @@
+/*
+* GameIndus - A free online platform to imagine, create and publish your game with ease!
+*
+* GameIndus old 2d engine
+* Copyright (c) 2015-2016 Maxime Malgorn (Utarwyn)
+* <https://github.com/GameIndus/engine-2d-old>
+*
+*/
+
 function eventListener(){
     var __listeners = new Array(), u = 'undefined', f = 'function';
     this.on = function(type, fn){
